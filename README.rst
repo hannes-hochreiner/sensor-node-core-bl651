@@ -1,7 +1,7 @@
 Sensor Node Core BL651
 ======================
 
-A gateway for the SensorNet project, based on the BL651 module.
+A sensor node for the SensorNet project, based on the BL651 module.
 
 Wire
 ----
