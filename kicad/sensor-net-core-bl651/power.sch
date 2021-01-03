@@ -1,0 +1,101 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6250 2950 1    50   Output ~ 0
+2V4
+Wire Wire Line
+	6350 3800 6350 3400
+Wire Wire Line
+	6350 3400 6150 3400
+Wire Wire Line
+	6250 3700 6150 3700
+Wire Wire Line
+	6150 3600 6250 3600
+Connection ~ 6250 3600
+Wire Wire Line
+	6250 3600 6250 3700
+Wire Wire Line
+	6150 3500 6250 3500
+Connection ~ 6250 3500
+Wire Wire Line
+	6250 3500 6250 3600
+Wire Wire Line
+	6250 2950 6250 3500
+$Comp
+L power:GND #PWR0106
+U 1 1 5F978956
+P 6350 3800
+F 0 "#PWR0106" H 6350 3550 50  0001 C CNN
+F 1 "GND" H 6355 3627 50  0000 C CNN
+F 2 "" H 6350 3800 50  0001 C CNN
+F 3 "" H 6350 3800 50  0001 C CNN
+	1    6350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L HH_DiodesIncorporated:DMP2008UFG-7 U2
+U 1 1 5F97922A
+P 5750 3550
+F 0 "U2" H 5750 3185 50  0000 C CNN
+F 1 "DMP2008UFG-7" H 5750 3276 50  0000 C CNN
+F 2 "HH_DiodesIncorporated:DMP2008UFG-7" H 5750 3000 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMP2008UFG.pdf" H 5750 3550 50  0001 C CNN
+F 4 "DMP2008UFG-7DICT-ND" H 5750 3550 50  0001 C CNN "Digi-Key Part Number"
+F 5 "Diodes Incorporated" H 5750 3550 50  0001 C CNN "Manufacturer"
+F 6 "DMP2008UFG-7" H 5750 3550 50  0001 C CNN "Manufacturer Part Number"
+F 7 "MOSFET P-CH 20V 14A POWERDI" H 5750 3550 50  0001 C CNN "Description"
+	1    5750 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5350 3350 5350 3400
+Wire Wire Line
+	5350 3600 5350 3700
+Wire Wire Line
+	5350 3400 5350 3500
+Connection ~ 5350 3400
+Wire Wire Line
+	5350 3500 5350 3600
+Connection ~ 5350 3500
+Connection ~ 5350 3600
+$Comp
+L HH_AVX:009296002202906 U1
+U 1 1 5F97D2F5
+P 4550 3550
+F 0 "U1" H 4442 3285 50  0000 C CNN
+F 1 "009296002202906" H 4442 3376 50  0000 C CNN
+F 2 "HH_AVX:009296002202906" H 4550 3550 50  0001 C CNN
+F 3 "http://datasheets.avx.com/PHLPHorizontal_00-9296.pdf" H 4550 3550 50  0001 C CNN
+F 4 "478-9533-1-ND" H 4550 3550 50  0001 C CNN "Digi-Key Part Number"
+F 5 "AVX Corporation" H 4550 3550 50  0001 C CNN "Manufacturer"
+F 6 "009296002202906" H 4550 3550 50  0001 C CNN "Manufacturer Part Number"
+F 7 "CONN WIRE POKE-IN 2POS SMD RA" H 4550 3550 50  0001 C CNN "Description"
+	1    4550 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5350 3350 5050 3350
+Wire Wire Line
+	5050 3350 5050 3500
+Wire Wire Line
+	5050 3500 4850 3500
+Wire Wire Line
+	4850 3600 5050 3600
+Wire Wire Line
+	5050 3600 5050 3800
+Wire Wire Line
+	5050 3800 6350 3800
+Connection ~ 6350 3800
+$EndSCHEMATC
